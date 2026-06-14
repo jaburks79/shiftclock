@@ -60,9 +60,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- AdSense placeholder — replace with your actual AdSense script tag -->
-  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
-
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -364,10 +361,24 @@
       color: var(--text-primary);
     }
 
+    .info-section h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+
     .info-section p {
       font-size: 14px;
       color: var(--text-secondary);
       line-height: 1.7;
+    }
+
+    .info-section ul {
+      margin-left: 1.25rem;
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.9;
     }
 
     .faq-item {
@@ -385,6 +396,12 @@
     .faq-item p {
       font-size: 13px;
       color: var(--text-secondary);
+    }
+
+    .content-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0.5rem 0;
     }
 
     /* ── Footer ── */
@@ -494,25 +511,75 @@
       </button>
     </div>
 
-    <!-- SEO content / FAQ -->
+    <!-- SEO content / FAQ — expanded for AdSense compliance -->
     <section class="info-section" aria-label="About ShiftClock">
+
       <h2>How to use the shift countdown timer</h2>
       <p>Enter your shift start and end time, then press <strong>Start countdown</strong>. The timer counts down in real time to the exact second your shift ends. Your browser tab will show the live countdown so you can minimize the window and check back anytime.</p>
 
+      <hr class="content-divider">
+
+      <h2>The Shift Worker's Best Friend</h2>
+      <p>Shift work is uniquely exhausting. Unlike a standard 9-to-5, your schedule rotates week to week, your sleep patterns rarely stabilize, and knowing exactly how much time is left in your shift can make the difference between pushing through and burning out. ShiftClock gives you one simple, distraction-free view of what matters most: how much time is left.</p>
+
+      <p>Whether you work 8-hour days, 10-hour rotating shifts, or grueling 12-hour overnight stretches, ShiftClock adapts to your schedule. Set your start time, set your end time, and let the countdown do the rest. Many shift workers keep ShiftClock open in a pinned browser tab throughout their entire shift — on desktop, tablet, or phone.</p>
+
+      <hr class="content-divider">
+
+      <h3>Who Uses ShiftClock?</h3>
+      <p>ShiftClock is built for anyone whose workday doesn't follow a traditional schedule. Our users include:</p>
+      <ul>
+        <li>Nurses and hospital staff on 12-hour rotations</li>
+        <li>Warehouse and fulfillment center workers</li>
+        <li>Factory and manufacturing employees</li>
+        <li>Retail associates and store managers</li>
+        <li>Call center and customer support agents</li>
+        <li>Security professionals on overnight duty</li>
+        <li>Truck drivers and logistics workers</li>
+        <li>Baristas, restaurant staff, and hospitality workers</li>
+        <li>Firefighters and emergency responders</li>
+        <li>Anyone on a rotating or non-standard shift</li>
+      </ul>
+      <p>If you've ever stared at a clock willing it to move faster, you know exactly why a dedicated shift countdown timer matters.</p>
+
+      <hr class="content-divider">
+
+      <h3>Why a Countdown Timer Helps Shift Workers</h3>
+      <p>Research consistently shows that knowing how much time remains in a difficult task makes it psychologically easier to endure. When the end of your shift feels invisible, fatigue sets in faster. When you can see a concrete number ticking down, your brain shifts into "finish line" mode — making the last few hours more manageable.</p>
+      <p>ShiftClock turns an invisible, dragging shift into a visible, measurable countdown. That small change in perspective can make a real difference, especially on long overnight stretches or back-to-back double shifts.</p>
+
+      <hr class="content-divider">
+
       <div class="faq-item">
         <h3>Does it work for overnight shifts?</h3>
-        <p>Yes. If your shift end time is earlier in the day than your start time (for example, 10:00 PM to 6:00 AM), ShiftClock automatically handles the midnight rollover.</p>
+        <p>Yes. If your shift end time is earlier in the day than your start time (for example, 10:00 PM to 6:00 AM), ShiftClock automatically handles the midnight rollover and calculates the correct remaining time.</p>
       </div>
 
       <div class="faq-item">
         <h3>Will it remember my shift?</h3>
-        <p>Check the "Remember my shift times" box and your start/end times will be saved locally on your device. Next time you visit, your times will be pre-filled.</p>
+        <p>Check the "Remember my shift times" box and your start and end times will be saved locally on your device. Next time you visit, your times will be pre-filled and the countdown will start automatically — no setup required.</p>
       </div>
 
       <div class="faq-item">
-        <h3>Who is this for?</h3>
-        <p>Anyone working a fixed shift — nurses, hospital staff, warehouse workers, factory employees, retail associates, call center agents, baristas, and more. If you have a shift end time, this tool is for you.</p>
+        <h3>Does ShiftClock work on my phone?</h3>
+        <p>Yes. ShiftClock is fully mobile-responsive and works on any modern smartphone or tablet. Bookmark it to your home screen for one-tap access at the start of every shift.</p>
       </div>
+
+      <div class="faq-item">
+        <h3>Is ShiftClock free?</h3>
+        <p>Completely free. No account required, no subscription, no app download. Just open it, enter your shift times, and go. ShiftClock will always be free for shift workers.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What shift lengths does it support?</h3>
+        <p>ShiftClock supports any shift length — from a 4-hour part-time shift to a 16-hour double. It handles standard 8-hour shifts, 10-hour shifts common in manufacturing, and 12-hour shifts typical in healthcare and emergency services. As long as you know your start and end time, ShiftClock handles the rest.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I see my shift progress?</h3>
+        <p>Yes. The progress bar below the countdown shows exactly what percentage of your shift is complete, along with how much time has already elapsed. At a glance you can see where you are in your shift without doing any math.</p>
+      </div>
+
     </section>
 
     <footer>
